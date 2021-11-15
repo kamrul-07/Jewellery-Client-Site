@@ -1,0 +1,31 @@
+.banner{
+    height: 100vh;
+    text-align: center;
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://www.frenz.org.nz/wp-content/uploads/E.14.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.banner h1{
+    padding-top: 170px;
+
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+@media only screen and (max-width: 600px){
+    .banner{
+       height: 50vh;
+
+    }
+    .banner h1{
+        padding-top: 0;
+        font-size: 30px;
+        padding: 0 10px;
+    }
+    .style{
+        font-size: 15px;
+    }
+}

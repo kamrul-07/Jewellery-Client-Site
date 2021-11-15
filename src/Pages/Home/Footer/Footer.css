@@ -1,0 +1,37 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10px;
+    
+}
+.footer-img{
+    height: 50vh;
+    text-align: center;
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://cdn.shopify.com/s/files/1/0418/1141/1111/files/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-top: 250px;
+}
+.footer-img h6{
+    letter-spacing: 3px;
+    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.information{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(27, 27, 27);
+    color: rgb(212, 211, 211);
+}
+.end-text{
+   
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 686px){
+    .footer{
+        display: block;
+    }
+}
