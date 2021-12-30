@@ -12,7 +12,7 @@ const Shop = () => {
     const handleClose = () => setOpen(false);
 
     useEffect( () =>{
-        fetch(`http://localhost:5000/product/${id}`)
+        fetch(`https://agile-island-10543.herokuapp.com/product/${id}`)
         .then (res => res.json())
         .then (data => setDetails(data))
     },[]);

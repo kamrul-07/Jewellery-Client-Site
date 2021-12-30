@@ -36,7 +36,7 @@ const ReviewAdd = () => {
         }
         console.log(reviewNote)
         
-        fetch('http://localhost:5000/review',{
+        fetch('https://agile-island-10543.herokuapp.com/review',{
           method:'POST',
           headers:{
             'content-type':'application/json'

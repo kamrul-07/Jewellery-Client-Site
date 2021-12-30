@@ -42,7 +42,7 @@ const PurchaseModal = ({open, handleClose, productName}) => {
             name: user.displayName,
             email: user.email
         }
-        fetch('http://localhost:5000/orders', {
+        fetch('https://agile-island-10543.herokuapp.com/orders', {
             method: 'POST',
             headers: {'content-type':'application/json'},
             body:JSON.stringify(purchaseInfo)

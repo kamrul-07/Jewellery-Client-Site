@@ -19,7 +19,7 @@ const Products = () => {
     const {user} =useAuth()
 
     useEffect(() => {
-        fetch("http://localhost:5000/products")
+        fetch("https://agile-island-10543.herokuapp.com/products")
     .then(res => res.json())
     .then(data => setProducts(data))
     },[])

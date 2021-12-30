@@ -12,13 +12,13 @@ const ManageProducts = () => {
     const [isDeleted,setIsDeleted]=useState(null)
 
     useEffect(() => {
-        fetch("http://localhost:5000/manageproducts")
+        fetch("https://agile-island-10543.herokuapp.com/manageproducts")
     .then(res => res.json())
     .then(data => setProducts(data))
     },[isDeleted])
 
     const handleDelete = id => {
-        fetch(`http://localhost:5000/deleteProduct/${id}`,{
+        fetch(`https://agile-island-10543.herokuapp.com//deleteProduct/${id}`,{
             method:"DELETE",
             headers:{"content-type" :"application/json"},
         })

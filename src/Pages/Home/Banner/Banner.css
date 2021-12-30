@@ -1,7 +1,7 @@
 .banner{
     height: 100vh;
     text-align: center;
-    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://www.frenz.org.nz/wp-content/uploads/E.14.jpg);
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/E.14.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
